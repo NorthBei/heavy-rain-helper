@@ -1,0 +1,45 @@
+{
+ "cwbopendata": {
+  "@xmlns": "urn:cwb:gov:tw:cwbcommon:0.1",
+  "identifier": "CWB-Weather_hazards_20210307182419",
+  "sender": "weather@cwb.gov.tw",
+  "sent": "2021-03-07T18:24:19+08:00",
+  "status": "Actual",
+  "scope": "Public",
+  "msgType": "Update",
+  "dataset": {
+   "datasetInfo": {
+    "datasetDescription": "大雨特報",
+    "datasetLanguage": "zh-TW",
+    "issueTime": "2021-03-07T18:20:00+08:00",
+    "validTime": {
+     "startTime": "2021-03-07T18:20:00+08:00",
+     "endTime": "2021-03-08T00:00:00+08:00"
+    },
+    "update": "2021-03-07T18:24:19+08:00"
+   },
+   "contents": {
+    "content": {
+     "contentLanguage": "zh-TW",
+     "contentText": "東北季風影響，今（７）日基隆北海岸有局部大雨發生的機率，請注意。"
+    }
+   },
+   "hazardConditions": {
+    "hazards": {
+     "hazard": {
+      "info": {
+       "language": "zh-TW",
+       "phenomena": "大雨",
+       "significance": "特報",
+       "affectedAreas": {
+        "location": {
+         "locationName": "基隆北海岸"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

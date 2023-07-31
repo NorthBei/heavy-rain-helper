@@ -1,0 +1,44 @@
+{
+  "name": "heavy-rain-helper",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --mode development --watch",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dateformat": "^4.5.1",
+    "docxtemplater": "^3.20.0",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.20",
+    "pizzip": "^3.0.6",
+    "sleep-promise": "^9.1.0",
+    "vue": "^2.6.11",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-browser-extension": "~0.25.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "^18.16.0",
+    "npm": "^9.5.1"
+  }
+}

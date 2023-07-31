@@ -1,0 +1,137 @@
+{
+ "cwbopendata": {
+  "@xmlns": "urn:cwb:gov:tw:cwbcommon:0.1",
+  "identifier": "CWB-Weather_hazards_20210302160552",
+  "sender": "weather@cwb.gov.tw",
+  "sent": "2021-03-02T16:05:52+08:00",
+  "status": "Actual",
+  "scope": "Public",
+  "msgType": "Update",
+  "dataset": [
+   {
+    "datasetInfo": {
+     "datasetDescription": "大雨特報",
+     "datasetLanguage": "zh-TW",
+     "issueTime": "2021-03-02T15:50:00+08:00",
+     "validTime": {
+      "startTime": "2021-03-02T15:53:00+08:00",
+      "endTime": "2021-03-02T23:00:00+08:00"
+     },
+     "update": "2021-03-02T16:05:52+08:00"
+    },
+    "contents": {
+     "content": {
+      "contentLanguage": "zh-TW",
+      "contentText": "東北季風影響，今（２）日基隆北海岸有局部大雨發生的機率，請注意。"
+     }
+    },
+    "hazardConditions": {
+     "hazards": {
+      "hazard": {
+       "info": {
+        "language": "zh-TW",
+        "phenomena": "大雨",
+        "significance": "特報",
+        "affectedAreas": {
+         "location": {
+          "locationName": "基隆北海岸"
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   {
+    "datasetInfo": {
+     "datasetDescription": "陸上強風特報",
+     "datasetLanguage": "zh-TW",
+     "issueTime": "2021-03-02T15:55:00+08:00",
+     "validTime": {
+      "startTime": "2021-03-02T15:56:00+08:00",
+      "endTime": "2021-03-03T05:00:00+08:00"
+     },
+     "update": "2021-03-02T16:05:52+08:00"
+    },
+    "contents": {
+     "content": {
+      "contentLanguage": "zh-TW",
+      "contentText": "東北風影響，臺南以北、東半部（含蘭嶼、綠島）、恆春半島沿海空曠地區及澎湖、金門、馬祖易有９至１０級強陣風，高雄沿海空曠地區亦有較強陣風，鄰近海域並有較大風浪，請特別注意。"
+     }
+    },
+    "hazardConditions": {
+     "hazards": {
+      "hazard": {
+       "info": {
+        "language": "zh-TW",
+        "phenomena": "陸上強風",
+        "significance": "特報",
+        "affectedAreas": {
+         "location": [
+          {
+           "locationName": "基隆北海岸"
+          },
+          {
+           "locationName": "新北市"
+          },
+          {
+           "locationName": "桃園市"
+          },
+          {
+           "locationName": "新竹市"
+          },
+          {
+           "locationName": "新竹縣"
+          },
+          {
+           "locationName": "苗栗縣"
+          },
+          {
+           "locationName": "臺中市"
+          },
+          {
+           "locationName": "彰化縣"
+          },
+          {
+           "locationName": "雲林縣"
+          },
+          {
+           "locationName": "嘉義縣"
+          },
+          {
+           "locationName": "臺南市"
+          },
+          {
+           "locationName": "恆春半島"
+          },
+          {
+           "locationName": "宜蘭縣"
+          },
+          {
+           "locationName": "花蓮縣"
+          },
+          {
+           "locationName": "臺東縣"
+          },
+          {
+           "locationName": "蘭嶼綠島"
+          },
+          {
+           "locationName": "澎湖縣"
+          },
+          {
+           "locationName": "金門縣"
+          },
+          {
+           "locationName": "連江縣"
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  ]
+ }
+}
