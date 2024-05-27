@@ -111,7 +111,7 @@ B. 召集人、副召集人、聯絡人：將自動填入對應內容<br/>
 
 ### Screenshots/Film
 
-None
+[水利署豪大雨開設小幫手 - Heavy Rain Helper 使用說明 | YouTube](https://youtu.be/EWKYvNslIas?si=IPrvAYBxavH8w3S7)
 
 ## Development Instruction
 
